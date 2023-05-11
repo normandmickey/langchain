@@ -2,16 +2,9 @@
 ATTOM_DOCS = """API documentation:
 Endpoint: https://api.gateway.attomdata.com/propertyapi/v1.0.0/
 
-Use the /property/address resource to get detailed property characteristics for a property or list of properties.
+Use the /property/address resource to get aist of properties within a zip code.
 
-What kinds of questions can data from the /property resource help answer?
-
-What properties fall within a radius of a given point (lat/long)?
-Are there properties within a zip code with property taxes of a given range?
-Can I validate the authenticity of the owner listed for a property?
-What data is available about a new property owner?
-What properties in a given area have the most current equity or are close to the end of their loan?
-
+What kinds of questions can data from the /property/address resource help answer?
 
 Request parameters
 
@@ -21,21 +14,9 @@ Request parameters
     page | string | The current view index based on the pagesize and the total number of records available
     pagesize | string | The number of records to be returned with the request
 
-Response object
-    status | string | If the request was successful or not. Options: ok, error. In the case of error a code and message property will be populated.
-    totalResults | int | The total number of results available for your request.
-    articles | array[article] | The results of the request.
-    source | object | The identifier id and a display name name for the source this article came from.
-    author | string | The author of the article
-    title | string | The headline or title of the article.
-    description | string | A description or snippet from the article.
-    url | string | The direct URL to the article.
-    urlToImage | string | The URL to a relevant image for the article.
-    publishedAt | string | The date and time that the article was published, in UTC (+000)
-    content | string | The unformatted content of the article, where available. This is truncated to 200 chars.
 
-Use page size: 2
-"""
+The Response JSON object contains an two object arrays. The first is object array is labeled "status" and the second object array labled "property". Following is an example response
+use example key pairs to contstruct an appropriate response to the question. 
 
 Response Body
 {
@@ -237,3 +218,4 @@ Response Body
     }
   ]
 }
+"""
