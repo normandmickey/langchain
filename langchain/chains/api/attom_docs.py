@@ -18,7 +18,7 @@ Here are some examples.
 https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/basicprofile?address1=62%20Maple%20St&address2=Canisteo%20NY
 
 2. Who owns the house located at "12 E Academy St, Canisteo NY"? The API call would be 
-https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/basicprofile?address1=12%20E$20Academy%20St&address2=Canisteo%20NY
+https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/basicprofile?address1=12%20E%20Academy%20St&address2=Canisteo%20NY
 
 
 """
