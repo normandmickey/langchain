@@ -13,7 +13,7 @@ status | object | status
 echoed_fields | object | echoed fields
 property | object | property details
 
-Each object in the property key has the following schema:
+Each object in the property object contains the following key pairs.
 key | value | description
 owner1 | string | proerty owners name
 yearBuilt | string | year the property was built
