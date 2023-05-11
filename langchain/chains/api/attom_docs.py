@@ -11,7 +11,7 @@ There are only two request parameters in addition to the header.
     
 The Response JSON object contains an three object arrays. The first is object array is labeled "status" and the second object array labled "echoed_fields" and
 the third object array is labeled "property".
-Following is an example response, do not use this result. It is just and example of the output to show the objects and keypairs.  
+Following is an example response, do not use the sample below to answer the question result. It is just sample to show the objects and key pairs.  
 Create and run the API call based on the address in the question to return the actual result. 
 
 {
