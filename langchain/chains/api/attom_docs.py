@@ -8,16 +8,4 @@ Parameter| Format | Required | Default Description
 address1 | string | Yes | The properties full street address including house number street name and apartment or unit number. 
 address2 | string | Yes | The city, state part of the property address.
 
-end of request parameters
-
-Response schema (JSON object):
-status | object | status
-echoed_fields | object | echoed fields
-property | object | property details
-
-Each object in the property object contains the following key pairs.
-key | value | description
-owner1 | string | proerty owners name
-yearBuilt | string | year the property was built
-
 """
