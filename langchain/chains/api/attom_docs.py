@@ -14,7 +14,7 @@ echoed_fields | object | echoed fields
 property | object | property details
 
 Each object in the property key has the following schema:
-owner1 | string | owner name
-yearBuilt | string | year built
+owner1 | string | proerty owners name
+yearBuilt | string | year the property was built
 
 """
