@@ -4,6 +4,15 @@ Endpoint: https://api.gateway.attomdata.com/propertyapi/v1.0.0/
 
 Use the /property/address resource to get detailed property characteristics for a property or list of properties.
 
+What kinds of questions can data from the /property resource help answer?
+
+What properties fall within a radius of a given point (lat/long)?
+Are there properties within a zip code with property taxes of a given range?
+Can I validate the authenticity of the owner listed for a property?
+What data is available about a new property owner?
+What properties in a given area have the most current equity or are close to the end of their loan?
+
+
 Request parameters
 
     postalcode | string | The zip code or postal code to search
