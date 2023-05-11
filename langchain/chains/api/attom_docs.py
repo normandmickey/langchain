@@ -4,14 +4,11 @@ Endpoint: https://api.gateway.attomdata.com/propertyapi/v1.0.0/
 
 Use the /property/basicprofile resource to get basic property information and most recent transaction and taxes for a specific address.
 
-Request parameters
+There are only two request parameters in addition to the header.
 
     address1 | string | The properties full street address including house number street name and apartment or unit number. 
     address2 | string | The city, state, zip part of the property address.
     
-End of request parameters. Do not add any exclusions. 
-
-
 The Response JSON object contains an three object arrays. The first is object array is labeled "status" and the second object array labled "echoed_fields" and
 the third object array is labeled "property".
 Following is an example response. Use example key pairs to construct an appropriate response to the question. 
