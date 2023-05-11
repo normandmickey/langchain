@@ -8,9 +8,13 @@ Parameter| Format | Required | Default Description
 address1 | string | Yes | The properties full street address including house number street name and apartment or unit number. 
 address2 | string | Yes | The city, state part of the property address.
 
-Relevant Response key pairs
+Response schema (JSON object):
+status | object | status
+echoed_fields | object | echoed fields
+property | object | property details
+
+Each object in the property key has the following schema:
 owner1 | string | owner name
 yearBuilt | string | year built
-
 
 """
