@@ -8,4 +8,6 @@ Parameter| Format | Required | Default Description
 address1 | string | Yes | The properties full street address including house number street name and apartment or unit number. 
 address2 | string | Yes | The city, state part of the property address.
 
+Response Object
+    owner1 | string | The owner of the property
 """
