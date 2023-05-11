@@ -2,7 +2,7 @@
 ATTOM_DOCS = """API documentation:
 Endpoint: https://api.gateway.attomdata.com/propertyapi/v1.0.0/
 
-Use the /property/address resource to get aist of properties within a zip code.
+Use the /property/address resource to get list of properties within a zip code.
 
 What kinds of questions can data from the /property/address resource help answer?
 
@@ -15,8 +15,8 @@ Request parameters
     pagesize | string | The number of records to be returned with the request
 
 
-The Response JSON object contains an two object arrays. The first is object array is labeled "status" and the second object array labled "property". Following is an example response
-use example key pairs to contstruct an appropriate response to the question. 
+The Response JSON object contains an two object arrays. The first is object array is labeled "status" and the second object array labled "property".
+Following is an example response. Use example key pairs to construct an appropriate response to the question. 
 
 Response Body
 {
