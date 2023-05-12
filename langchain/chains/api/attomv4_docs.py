@@ -7,4 +7,8 @@ Parameter| Format | Required | Default Description
 name | string | Yes | This is the location name to search
 geographyTypeAbbreviation | string | Yes | Geography type abbreviation (default = PL)
 
+The API endpoint neighborhood/community accepts only one parameter geoIdv4 and responds with a JSON object Community profile including air quailty, climate, crime, demographics, and natural disatsers for a specific geography (geoIdV4).
+Parameter| Format | Required | Default Description
+geoIdv4 | string | Yes | This is the specific geography code to search
+
 """
