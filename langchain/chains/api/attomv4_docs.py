@@ -1,18 +1,10 @@
 # flake8: noqa
-ATTOM_DOCS = """BASE URL: https://api.gateway.attomdata.com/propertyapi/v1.0.0/
+ATTOMV4_DOCS = """BASE URL: https://api.gateway.attomdata.com/v4/
 
 API Documentation
-The API endpoint /property/basicprofile accepts only two parameters address1 and address2 and responds with a JSON object that contains basic property information. 
+The API endpoint /location/lookup accepts only two parameters name and geographyTypeAbbreviation and responds with a JSON object that is used to identify applicable geocodes (geoIdV4)
 Parameter| Format | Required | Default Description
-address1 | string | Yes | The properties full street address including house number street name and apartment or unit number. 
-address2 | string | Yes | The city, state part of the property address.
-
-The API endpoint /property/address accepts five parameters postalcode, propertytype, orderby, page, pagesize and responds with a JSON object that contains a list of properties within a zip code.
-Paramer| Format | Required | Default Description
-postalcode | string | Yes | The zip code or posstal code to search.
-propertytype | string | Yes | A specific property classification such as 'Detached Single Family'
-orderby | string | Yes | 	Sorting Options
-page | integer | Yes | 	The current view index based on the pagesize and the total number of records available
-pagesize | integer | Yes | The number of records to be returned with the request
+name | string | Yes | This is the location name to search
+geographyTypeAbbreviation | string | Yes | Geography type abbreviation (default = PL)
 
 """
