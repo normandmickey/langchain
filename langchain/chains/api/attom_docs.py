@@ -7,6 +7,24 @@ Parameter| Format | Required | Default Description
 address1 | string | Yes | The properties full street address including house number street name and apartment or unit number. 
 address2 | string | Yes | The city, state part of the property address.
 
+Reponse
+key | format | description
+absenteeInd | string | absentee indicator
+propClass | string | property class
+propSubType | string | property subtype
+propType | string | property type
+yearBuilt| year build | year built
+propLandUse | string | land use
+propIndicator stirng | property indicator
+legal1 | string | legal id
+dateOfLastQuitClaim | date | date of last quit claim
+
+energyType | string | energy type
+heatingFuel | string | heating fuel
+heatingType | string | heating type
+sewerType | string | sewar type
+wallType | string | wall type
+
 The API endpoint /property/address accepts five parameters postalcode, propertytype, orderby, page, pagesize and responds with a JSON object that contains a list of properties within a zip code.
 Paramer| Format | Required | Default Description
 postalcode | string | Yes | The zip code or posstal code to search.
