@@ -11,4 +11,15 @@ The API endpoint neighborhood/community accepts only one parameter geoIdv4 and r
 Parameter| Format | Required | Default Description
 geoIdv4 | string | Yes | This is the specific geography code to search
 
+The API endpoint /location/lookup accepts only two parameters name and geographyTypeAbbreviation and responds with a JSON object that is used to identify applicable geocodes (geoIdV4)
+Parameter| Format | Required | Default Description
+name | string | Yes | This is the location name to search
+geographyTypeAbbreviation | string | Yes | Geography type abbreviation (default = PL)
+
+The API endpoint transaction/salestrend accepts only three parameters geoIdv4, startyear and endyear and responds with a JSON object Get the average sale price, median sale price, and count of sales for the past 5 years in yearly intervals..
+Parameter| Format | Required | Default Description
+geoIdv4 | string | Yes | This is the specific geography code to search
+startyear | integer | Yes | The start year to search from
+endyear | integer | Yes | The end year to search from
+
 """
