@@ -16,7 +16,7 @@ Parameter| Format | Required | Default Description
 name | string | Yes | This is the location name to search
 geographyTypeAbbreviation | string | Yes | Geography type abbreviation (default = PL)
 
-The API endpoint transaction/salestrend accepts only three parameters geoIdv4, startyear, endyear and interval and responds with a JSON object Get the average sale price, median sale price, and count of sales for the past 5 years in yearly intervals..
+The API endpoint transaction/salestrend accepts only four parameters geoIdv4, startyear, endyear and interval and responds with a JSON object Get the average sale price, median sale price, and count of sales for the past 5 years in yearly intervals..
 Parameter| Format | Required | Default Description
 geoIdv4 | string | Yes | This is the specific geography code to search
 startyear | integer | Yes | The start year to search from
