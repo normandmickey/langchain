@@ -7,7 +7,7 @@ Parameter| Format | Required | Default Description
 address1 | string | Yes | The properties full street address including house number street name and apartment or unit number. 
 address2 | string | Yes | The city, state part of the property address.
 
-Reponse Object
+Reponse key pairs
 key | format | description
 absenteeInd | string | absentee indicator
 propClass | string | property class
@@ -18,7 +18,6 @@ propLandUse | string | land use
 propIndicator stirng | property indicator
 legal1 | string | legal id
 dateOfLastQuitClaim | date | date of last quit claim
-
 energyType | string | energy type
 heatingFuel | string | heating fuel
 heatingType | string | heating type
