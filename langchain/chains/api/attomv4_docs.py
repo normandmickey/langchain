@@ -5,7 +5,7 @@ API Documentation
 The API endpoint /location/lookup accepts only two parameters name and geographyTypeAbbreviation and responds with a JSON object that is used to identify applicable geocodes (geoIdV4)
 Parameter| Format | Required | Default Description
 name | string | Yes | This is the location name to search
-geographyTypeAbbreviation | string | Yes | Geography type abbreviation (default = PL)
+geographyTypeAbbreviation | string | Yes | Geography type abbreviation (default = ZI)
 
 The API endpoint neighborhood/community accepts only one parameter geoIdv4 and responds with a JSON object Community profile including air quailty, climate, crime, demographics, and natural disatsers for a specific geography (geoIdV4).
 Parameter| Format | Required | Default Description
