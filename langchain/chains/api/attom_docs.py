@@ -54,9 +54,10 @@ taxYear | integer | tax year
 Homeowner | string | homeowner tax exemption
 improvementPercent | integer | improvement percent
 corporateIndicator | string | corporation indicator
-lastName | string | owner name
+lastName | string | property owner last name
+firstName | string | property owner first name 
 absenteeOwnerStatus | string | absentee owner status
-mailingAddressOneLine | string | owner mailing address
+mailingAddressOneLine | string | property owner mailing address
 lastModified | date | last modified
 pubDate | date | published date
 
